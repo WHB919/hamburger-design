@@ -57,7 +57,7 @@ typeof SuppressedError === "function" ? SuppressedError : function (error, suppr
  *
  * ### 何时使用
  * 标记了一个（或封装一组）操作命令，响应用户点击行为，触发相应的业务逻辑。
- * 在violet-design我们提供了6种按钮
+ * hamburger-design我们提供了6种按钮
  *
  * - 默认按钮：用于没有主次之分的一组行动点。
  * - 主按钮：用于主行动点，一个操作区域只能有一个主按钮。
@@ -77,10 +77,10 @@ typeof SuppressedError === "function" ? SuppressedError : function (error, suppr
 var Button = function (props) {
     var _a;
     var btnType = props.btnType, className = props.className, disabled = props.disabled, size = props.size, children = props.children, href = props.href, restProps = __rest(props, ["btnType", "className", "disabled", "size", "children", "href"]);
-    var cls = classNames__default["default"]('violetButton', className, (_a = {},
-        _a["violetButton--".concat(btnType)] = btnType,
-        _a["violetButton--".concat(size)] = size !== 'mid',
-        _a['violetButton--disabled'] = disabled,
+    var cls = classNames__default["default"]('hamburgerButton', className, (_a = {},
+        _a["hamburgerButton--".concat(btnType)] = btnType,
+        _a["hamburgerButton--".concat(size)] = size !== 'mid',
+        _a['hamburgerButton--disabled'] = disabled,
         _a));
     if (btnType === 'link' && href) {
         return (jsxRuntime.jsx("a", __assign({ className: cls, href: !disabled ? href : 'javascript:void(0)' }, restProps, { children: children })));

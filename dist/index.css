@@ -344,23 +344,23 @@ template {
 }
 .hamburgerButton--primary {
   color: #fff;
-  background: #dbba39;
-  border-color: #dbba39;
+  background: #dda52d;
+  border-color: #dda52d;
 }
 .hamburgerButton--primary:disabled, .hamburgerButton--primary.disabled {
   color: #fff;
-  background: #dbba39;
-  border-color: #dbba39;
+  background: #dda52d;
+  border-color: #dda52d;
 }
 .hamburgerButton--danger {
   color: #fff;
-  background: #a8456b;
-  border-color: #a8456b;
+  background: #c53b40;
+  border-color: #c53b40;
 }
 .hamburgerButton--danger:disabled, .hamburgerButton--danger.disabled {
   color: #fff;
-  background: #a8456b;
-  border-color: #a8456b;
+  background: #c53b40;
+  border-color: #c53b40;
 }
 .hamburgerButton--default {
   color: #212529;
@@ -374,7 +374,7 @@ template {
 }
 .hamburgerButton--link {
   font-weight: 400;
-  color: #dbba39;
+  color: #dda52d;
   text-decoration: none;
   box-shadow: none;
 }
