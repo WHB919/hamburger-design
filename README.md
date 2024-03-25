@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Hamburger-design组件库
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+基于「 React 」框架的个性化 UI 组件库，主要用于企业级中后台系统。
 
-## Available Scripts
+## 介绍
 
-In the project directory, you can run:
+- 基于react框架
+- 基于TypeScript开发
+- 基于Storybook设计的演示站点
 
-### `npm start`
+## 安装
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+推荐使用 npm 来安装，享受生态圈和工具带来的便利，可以在开发环境轻松调试，也可以在生态环境打包部署使用。
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`$ npm install hamburger-design`
 
-### `npm test`
+## 示例
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. 引入样式
 
-### `npm run build`
+在`index.tsx(.jsx)`中：
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```js
+import 'hamburger-design/dist/index.css'
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. 使用组件
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```js
+import React from 'react';
+import { Button } from 'hamburger-design';
 
-### `npm run eject`
+const App = () => (
+  <>
+    <Button btnType="primary" size="lg">PRESS ME</Button>
+  </>
+);
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 按需加载
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`hamburger-design` 默认支持基于 ES modules 的 tree shaking。
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### TypeScript
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+`hamburger-design`使用 TypeScript 进行书写并提供了完整的定义文件。
