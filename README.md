@@ -7,6 +7,7 @@
 - 基于react框架
 - 基于TypeScript开发
 - 基于Storybook设计的演示站点
+- [静态站点](https://WHB919.github.io/hamburger-design/)
 
 ## 安装
 

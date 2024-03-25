@@ -30,7 +30,9 @@
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "storybook-docs": "start-storybook --docs --no-manager-cache"
+    "storybook-docs": "start-storybook --docs --no-manager-cache",
+    "deploy-storybook": "storybook-to-ghpages",
+    "chromatic": "npx chromatic --project-token=chpt_9b1a26d2c5fb5f3"
   },
   "eslintConfig": {
     "extends": [
@@ -64,6 +66,7 @@
     "@storybook/preset-create-react-app": "^8.0.4",
     "@storybook/react": "^8.0.4",
     "@storybook/react-webpack5": "^8.0.4",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^8.0.4",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
