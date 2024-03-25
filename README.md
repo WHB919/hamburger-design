@@ -1,13 +1,13 @@
 # Hamburger-design组件库
 
-基于「 React 」框架的个性化 UI 组件库，主要用于企业级中后台系统。
+基于「 React 」框架的个性化 UI 组件库。[静态站点](https://WHB919.github.io/hamburger-design/)
 
 ## 介绍
 
-- 基于react框架
+- 基于React框架开发
 - 基于TypeScript开发
-- 基于Storybook设计的演示站点
-- [静态站点](https://WHB919.github.io/hamburger-design/)
+- 基于Storybook设计的静态演示站点
+- 采用Rollup打包，默认支持基于ES modules的tree shaking
 
 ## 安装
 
@@ -15,9 +15,9 @@
 
 `$ npm install hamburger-design`
 
-## 示例
+### 示例
 
-### 1. 引入样式
+#### 1. 引入样式
 
 在`index.tsx(.jsx)`中：
 
@@ -25,7 +25,7 @@
 import 'hamburger-design/dist/index.css'
 ```
 
-### 2. 使用组件
+#### 2. 使用组件
 
 ```js
 import React from 'react';
@@ -38,10 +38,3 @@ const App = () => (
 );
 ```
 
-### 按需加载
-
-`hamburger-design` 默认支持基于 ES modules 的 tree shaking。
-
-### TypeScript
-
-`hamburger-design`使用 TypeScript 进行书写并提供了完整的定义文件。
